@@ -3,3 +3,7 @@ const div = document.querySelector("div"); // selecciona al primer div que encue
 div.addEventListener("click", function () {
 	alert("Hola! Soy el div");
 });
+
+function random(event) {
+	event.stopPropagation();
+}
